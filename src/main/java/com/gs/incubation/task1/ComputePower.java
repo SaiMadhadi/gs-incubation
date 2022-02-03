@@ -9,7 +9,7 @@ public class ComputePower {
         } else if (exp == 1) {
             return base;
         } else {
-            value = power(base, exp / 2);
+            value = powerCalculation(base, exp / 2);
             if (exp % 2 == 0) {
                 return value * value;
             } else {
